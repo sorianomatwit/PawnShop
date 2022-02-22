@@ -1,0 +1,1 @@
+newTextBox("Hello\nYour Adventure Awaits",0)
