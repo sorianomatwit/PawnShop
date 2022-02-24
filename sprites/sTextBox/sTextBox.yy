@@ -33,6 +33,9 @@
     {"compositeImage":{"FrameId":{"name":"d1c8f6f1-a196-4def-a92f-fbfbda4fabe3","path":"sprites/sTextBox/sTextBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"d1c8f6f1-a196-4def-a92f-fbfbda4fabe3","path":"sprites/sTextBox/sTextBox.yy",},"LayerId":{"name":"9e16b877-fa10-47dd-b436-8ed840b4812e","path":"sprites/sTextBox/sTextBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sTextBox","path":"sprites/sTextBox/sTextBox.yy",},"resourceVersion":"1.0","name":"d1c8f6f1-a196-4def-a92f-fbfbda4fabe3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"93271926-4897-4b74-b088-64203b313411","path":"sprites/sTextBox/sTextBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"93271926-4897-4b74-b088-64203b313411","path":"sprites/sTextBox/sTextBox.yy",},"LayerId":{"name":"9e16b877-fa10-47dd-b436-8ed840b4812e","path":"sprites/sTextBox/sTextBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sTextBox","path":"sprites/sTextBox/sTextBox.yy",},"resourceVersion":"1.0","name":"93271926-4897-4b74-b088-64203b313411","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sTextBox","path":"sprites/sTextBox/sTextBox.yy",},
@@ -42,7 +45,7 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 3.0,
+    "length": 4.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
@@ -50,6 +53,7 @@
             {"id":"c88a2449-852f-49db-ae40-3dbfa06f182d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"464ad153-114b-4848-ad6e-2be1e5e54d6d","path":"sprites/sTextBox/sTextBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"724147ae-d2a1-4277-9d54-e820243e5c59","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9515cb49-7c0f-49c1-bf11-eaf792f5deda","path":"sprites/sTextBox/sTextBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"773413a7-31e9-41fa-8db3-63a89903f641","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d1c8f6f1-a196-4def-a92f-fbfbda4fabe3","path":"sprites/sTextBox/sTextBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5a740851-0152-434b-95bf-d2dad262dd82","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"93271926-4897-4b74-b088-64203b313411","path":"sprites/sTextBox/sTextBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -75,10 +79,34 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9e16b877-fa10-47dd-b436-8ed840b4812e","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
+  "nineSlice": {
+    "left": 7,
+    "top": 7,
+    "right": 7,
+    "bottom": 7,
+    "guideColour": [
+      4294902015,
+      4294902015,
+      4294902015,
+      4294902015,
+    ],
+    "highlightColour": 1728023040,
+    "highlightStyle": 1,
+    "enabled": true,
+    "tileMode": [
+      0,
+      0,
+      0,
+      0,
+      0,
+    ],
+    "resourceVersion": "1.0",
+    "loadedVersion": null,
+    "resourceType": "GMNineSliceData",
+  },
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "UI buttons",
+    "path": "folders/Sprites/UI buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "sTextBox",

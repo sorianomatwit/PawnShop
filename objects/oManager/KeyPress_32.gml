@@ -1,1 +1,1 @@
-newTextBox("Hello\nYour Adventure Awaits",0)
+newTextBox("Hello I thought u wouldve known better\n but Your Adventure Awaits",0)
