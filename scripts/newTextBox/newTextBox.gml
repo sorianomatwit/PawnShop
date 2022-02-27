@@ -1,7 +1,7 @@
 
 
 
-function DrawSetText(color,font,halign,valign){
+function DrawSetText(color,font,halign,valign){//setup for the drawing text
 	draw_set_font(font);
 	draw_set_halign(halign);
 	draw_set_valign(valign);
@@ -40,7 +40,7 @@ function newTextBox(_message,_background = 1,_responses = []){
 	}
 }
 
-function sayLine(_itemIndex){
+function sayLine(_itemIndex){// response correlating to each item, instead of character it recorded with each item index
 	switch(_itemIndex){
 		case 0:
 			newTextBox("I found this diggin' in my backyard! Ignore the beepin...",0);

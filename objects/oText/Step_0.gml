@@ -7,7 +7,7 @@ wid = lerp(wid,widTarget,lerpProgress);
 
 
 //select response/skip text/ remove text
-if(keyboard_check_pressed(vk_space)){
+if(mouse_check_button_pressed(mb_left)){
 	
 	var _messageLen = string_length(msg);
 	

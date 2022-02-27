@@ -2,7 +2,7 @@ if(item != noone and !hasBeenSet){
 	sprite_index = item.sm_index;
 	hasBeenSet = true;
 }
-
+//click on item to open up popUp
 if(collision_point(mouse_x,mouse_y,id,false,false) and mouse_check_button_pressed(mb_left)){
 	image_index = 1;
 	if(!instance_exists(oPopUp)){
