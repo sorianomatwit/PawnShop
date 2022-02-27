@@ -21,3 +21,10 @@ itemX = 286;
 itemY = 280;
 textX = 715
 textY = 359
+truthX = 705;
+truthY = 144;
+showTruth = false;
+
+decide = 0;
+clickX = 579;
+clickY = 491;

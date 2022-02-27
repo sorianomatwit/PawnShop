@@ -1,5 +1,6 @@
 function ShoppingItem(_cost, _spr, _desc, _audioSound,_isReal, _isSelling = true) constructor{
 	cost = _cost;
+	index = _spr
 	sm_index = global.smallImg[_spr];
 	bg_index = global.bigImg[_spr];
 	description = _desc;
@@ -7,7 +8,7 @@ function ShoppingItem(_cost, _spr, _desc, _audioSound,_isReal, _isSelling = true
 	isReal = _isReal
 	itemName = global.items[_spr];
 	static Poked = function(){
-		//add audio sound here
+		
 	}
 }
 function Character(_spr) constructor{

@@ -44,18 +44,31 @@ if(global.openPopUp){
 	} else if (point_in_rectangle(mouse_x,mouse_y,butX- 492,butY-43,butX-366 ,butY-8)){
 		index = 1;
 	} else index = 0;
+	if(point_in_rectangle(mouse_x,mouse_y,butX- 131,butY-74,butX-21 ,butY-10)){
+		index = 4;
+	} else if(point_in_rectangle(mouse_x,mouse_y,butX- 254,butY-63,butX-141 ,butY-10)){
+		index = 3;
+	}
 #endregion
 
 #region click button
+if(mouse_check_button_pressed(mb_left)){
 	switch(index){
 		case 1://look
+			item.Poked();
 		break;
 		case 2://tap
+			item.Poked();
 		break;
 		case 3://light
+			item.Poked();
 		break;
 		case 4://check
+			if(global.playerMoney - 100 > 0){
+				showTruth = true;
+				global.playerMoney -= 100;
+			}
 		break;
 	}
+}
 #endregion 
-show_debug_message(lerpProgress);

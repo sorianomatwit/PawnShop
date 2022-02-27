@@ -2,12 +2,12 @@ lerpProgress += (1 - lerpProgress) / 100;
 if(lerpProgress > .2) {
 	textProgress += textSpd;
 }
-x1 = lerp(x1,xTarget,lerpProgress);
+len = lerp(len,lenTarget,lerpProgress);
 wid = lerp(wid,widTarget,lerpProgress);
 
 
 //select response/skip text/ remove text
-if(keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("P"))){
+if(keyboard_check_pressed(vk_space)){
 	
 	var _messageLen = string_length(msg);
 	

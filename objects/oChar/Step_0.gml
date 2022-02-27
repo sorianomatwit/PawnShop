@@ -19,6 +19,10 @@ if(global.playerDecision != -1){
 	inCenter = false;
 }
 
+if (x <= xTarget + 20 and !saidLine){
+	sayLine(charItem.index);
+	saidLine = true;
+}
 if(x >= room_width + 80){
 	sprite_index = newCharacter();
 	myChar = new Character(sprite_index);
@@ -29,6 +33,6 @@ if(x >= room_width + 80){
 	}
 }
 
-if(keyboard_check_pressed(vk_space)){
-	global.playerDecision = 0;
+if(keyboard_check_pressed(vk_space) and saidLine){
+	saidLine = false
 }

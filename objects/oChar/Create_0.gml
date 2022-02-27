@@ -32,3 +32,4 @@ function newCharacter(){
 	}
 	return ds_list_find_value(allCharacters,_index);
 }
+saidLine = false;

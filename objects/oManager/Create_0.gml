@@ -17,7 +17,7 @@ global.items = [
 "Sunglasses",
 "Beanie Baby"
 ]
-global.openPopUp = false;
+
 global.bigImg = [
 	B01,
 	B02,
@@ -55,10 +55,14 @@ global.smallImg = [
 	S16
 ]
 #endregion
-
+global.openPopUp = false;
 marginx = 16;
 marginy = 8;
 sections = [0,89,357,446,490,516,569];
 global.playerInventory = ds_list_create();
-global.playerMoney = 1000;
+global.playerMoney = 3000;
 global.playerDecision = -1;
+
+levelsound = audio_play_sound(lofi_type_beat_01,100,false);
+//introLen = 12.895;
+loopLen = 51.030;
