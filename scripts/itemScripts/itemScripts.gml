@@ -7,6 +7,9 @@ function ShoppingItem(_cost, _spr, _desc, _audioSound,_isReal, _isSelling = true
 	isReal = _isReal
 	itemName = global.items[_spr];
 	static Poked = function(){
+        audioSound = audioplayed
+        audio_play_sound(audioplayed, 10, false);
+}
 		//add audio sound here
 	}
 }
