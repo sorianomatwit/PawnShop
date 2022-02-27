@@ -1,1 +1,0 @@
-newTextBox("Hello I thought u wouldve known better\n but Your Adventure Awaits",0)
